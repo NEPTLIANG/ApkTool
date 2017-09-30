@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/offlinelog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offlinelog_title" />
+            <CheckBox android:id="@id/copyofflinelog" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copyofflinelog_title" />
+            <CheckBox android:id="@id/dm_register" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dm_register_title" />
+            <CheckBox android:id="@id/call_forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_forward_title" />
+            <CheckBox android:id="@id/dcd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcd_title" />
+            <CheckBox android:id="@id/streaming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/streaming_title" />
+            <CheckBox android:id="@id/qos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qos_title" />
+            <CheckBox android:id="@id/wifi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wifi_title" />
+            <CheckBox android:id="@id/email_reg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/email_reg_title" />
+            <CheckBox android:id="@id/usb_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usb_mode_title" />
+            <CheckBox android:id="@id/open_modem_offline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_modem_offline_trace" />
+            <CheckBox android:id="@id/switchtolcusbwhenboot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/switch_to_lcusb" />
+            <CheckBox android:id="@id/gps_log" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gps_log_enable" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_weight="1.0">
+        <Button android:id="@id/ButtonOk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/test_config_button_ok" android:layout_weight="1.0" />
+        <Button android:id="@id/ButtonCancel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/test_config_button_cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

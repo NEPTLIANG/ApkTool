@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/streaming_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference android:entries="@array/streaming_apn_names" android:title="@string/apn_settings" android:key="streaming_apn_settings" android:dialogTitle="@string/apn_settings" android:entryValues="@array/streaming_apn_values" />
+</PreferenceScreen>

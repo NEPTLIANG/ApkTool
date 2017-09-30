@@ -1,0 +1,10 @@
+version: 1.5.2
+apkFileName: HAHAHA.apk
+isFrameworkApk: true
+sdkInfo:
+  minSdkVersion: AOSP
+  targetSdkVersion: AOSP
+packageInfo:
+  cur_package: android
+  orig_package: android
+compressionType: false

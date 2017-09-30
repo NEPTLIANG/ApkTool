@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fiqih.anaknya.mbol.NetworkStatsView android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/bubble_r" style="@style/TextAppearance.StatusBar.NetworkStats" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_net_out" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/bubble_l" style="@style/TextAppearance.StatusBar.NetworkStats" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/stat_sys_net_in" />
+    </LinearLayout>
+</com.fiqih.anaknya.mbol.NetworkStatsView>

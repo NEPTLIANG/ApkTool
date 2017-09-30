@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/wifi_advanced_titlebar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_notify_open_networks" android:key="notify_open_networks" android:summary="@string/wifi_notify_open_networks_summary" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_auto_link" android:key="notify_auto_link" android:summary="@string/wifi_auto_link_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/wifi_sleep_policy_entries" android:title="@string/wifi_setting_sleep_policy_title" android:key="sleep_policy" android:entryValues="@array/wifi_sleep_policy_values" />
+    <ListPreference android:persistent="false" android:entries="@array/TD_GSM_Change_WLAN_entries" android:title="@string/TD_GSM_Change_WLAN_title" android:key="TD_GSM_Change_WLAN" android:entryValues="@array/TD_GSM_Change_WLAN_values" />
+    <CheckBoxPreference android:persistent="false" android:title="@string/wifi_enable_watchdog_service" android:key="wifi_enable_watchdog_service" android:summary="@string/wifi_enable_watchdog_service_summary" />
+    <ListPreference android:persistent="false" android:entries="@array/wifi_frequency_band_entries" android:title="@string/wifi_setting_frequency_band_title" android:key="frequency_band" android:summary="@string/wifi_setting_frequency_band_summary" android:entryValues="@array/wifi_frequency_band_values" />
+    <Preference android:title="@string/wifi_advanced_mac_address_title" android:key="mac_address" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_advanced_ip_address_title" android:key="current_ip_address" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_gateway" android:key="phone_wifi_gateway" style="?android:attr/preferenceInformationStyle" />
+    <Preference android:title="@string/wifi_netmask" android:key="phone_wifi_netmask" style="?android:attr/preferenceInformationStyle" />
+    <PreferenceScreen android:title="@string/wifi_wapi_cert_manage_titlebar" android:key="wapi_cert_mgmt">
+        <intent android:targetPackage="com.android.wapi" android:action="android.intent.action.MAIN" android:targetClass="com.android.wapi.WapiCertMgmt" />
+    </PreferenceScreen>
+</PreferenceScreen>
